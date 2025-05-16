@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:3300/api/products'; // Update if your backend runs elsewhere
+const API_BASE_URL = 'https://mini-ecommerce-platform-1.onrender.com/api/products'; // Update if your backend runs elsewhere
 
 // Add a new product
 export const addProduct = async (productData) => {
